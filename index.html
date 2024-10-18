@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta Description and Keywords -->
+    <meta name="description" content="Discover the best JavaScript stopwatch app for accurate time tracking. Simple, fast, and perfect for all your timing needs, built with clean and efficient JavaScript code.">
+    <meta name="keywords" content="JavaScript stopwatch, best stopwatch app, stopwatch timer, JavaScript timer, stopwatch app, web stopwatch, online stopwatch, JS stopwatch app">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Best JavaScript Stopwatch App">
+    <meta property="og:description" content="Looking for the best JavaScript stopwatch app? Track time efficiently with our simple and fast JavaScript-based stopwatch, perfect for precise timing.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./img/JavaScript Stopwatch App.png" />
+    <title>Best JavaScript Stopwatch App <span id="year"></span></title>
+
+    <link rel="icon" type="image/x-icon" href="./img/chbappy-cse-favicon.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img onclick="watchStop()" src="./img/stop.png" alt="stop">
+            <img onclick="watchStart()" src="./img/start.png" alt="start">
+            <img onclick="watchReset()" src="./img/reset.png" alt="start">
+        </div>
+    </div>
+
+    
+    
+    <script src="./app.js"></script>
+</body>
+</html>
